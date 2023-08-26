@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #fff;
+    transition: 0.6s;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.nav-item a{
+    transition: 0.4s;
+}
+nav .nav-item:hover a{
+    color: #D62E33!important;
+}
+#head{
+    background-image: linear-gradient( rgba(214, 46, 51 , 0.6) ,rgba(214, 46, 51 , 0.6)),
+    url('../imges/events-heavenly-header.jpg');
+  background-size: 100% 100%;
+  height: 650px;
+}
+#head .leftmenue{
+    height: 100vh;
+    width: 220px;
+    left: -220px;
+    top: 0;
+    background-color: #111;
+    transition: 0.5s;
+}
+#head .text{
+    color: #fff;
+}
+#head .text h2{
+font-size: 60px;
+}
+#head .icon{
+    transition: 0.5s;
+    font-size: 30px;
+    top: 50%;
+    left:20px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+#head .leftmenue ul li{
+    font-size: 25px;
+    padding-block: 15px;
+}
+#head .leftmenue ul li:hover a{
+    color: #D62E33;
+}
+#head .leftmenue ul li:hover i{
+    color: #D62E33!important;
+}
+
+#head .leftmenue .exit{
+    top: 0;
+    right: 25px;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+
+    /* margin-left: 50px; */
+}
+a{
+    color: #fff;
+    transition: 0.4s;
+}
+
+#section2{
+    width: 800px;
+    margin: auto;
+    margin-top: 80px;
+}
+#section2 .card-header{
+    background-color: rgba(214, 46, 51 , 0.6);
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+#section2 .card-body{
+    background-color: #ccc;
+    text-align: center;
+    display: none;
+    padding: 20px;
+}
+#section3{
+    background-image: linear-gradient( rgba(214, 46, 51 , 0.6) ,rgba(214, 46, 51 , 0.6)),
+    url('../imges/invitation-2508607__340.jpg');
+  background-size:cover;
+ padding: 100px;
+ margin-top: 80px;
+  margin-bottom: 80px;
+}
+#section3 .inner{
+    /* background-color: aqua; */
+    text-align: center;
+    padding-inline:15px ;
+    border: 2px solid #fff; 
+    padding: 50px;   
+}
+#section3 .inner span{
+    color: #fff;
+    font-size: 30px;
+}
+#section4{
+    margin-bottom: 80px;
+}
+#section4 .social li{
+    margin-right: 30px;
+    color: #999;
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4 .social li:hover{
+    background-color:  #D62E33;
+
+}
+#section4 .social li:hover i{
+  color:  #fff;
+
+}
+#section4  h2{
+margin-bottom: 70px;
+}
+#section4 .col-6 h3{
+font-size: 18px;
+margin-bottom: 20px;
+}
+#section4 .col-6 p{
+margin-bottom: 30px;
+width: 500px;
+}
+#section4 .col-6 .links li{
+    margin-bottom: 20px;
+}
+input , textarea{
+    border-radius: 0%!important;
+    margin-bottom: 20px;
+}
+textarea{
+    height:200px;
+}
+#section4 .form p{
+    font-size: 20px;
+}
+#section4 .form p span{
+color: #D62E33;
+margin-right: 5px;
+}
+#section4 .form button{
+    padding: 10px;
+}
+@media (max-width: 841.98px) {
+    #section2{
+        width: 600px;
+        margin: auto;
+    margin-top: 80px;
+    }
+    #head .text h2{
+        font-size: 50px;
+        }
+    }
+    @media (max-width: 628.98px) {
+        #section2{
+            width: 450px;
+            margin: auto;
+        margin-top: 80px;
+        }
+        #head .text h2{
+            font-size: 40px;
+            }
+    }
